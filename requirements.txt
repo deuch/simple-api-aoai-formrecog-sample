@@ -1,0 +1,6 @@
+Flask==2.3.2
+openai
+azure-ai-formrecognizer
+azure-storage-blob
+azure-identity
+gunicorn
