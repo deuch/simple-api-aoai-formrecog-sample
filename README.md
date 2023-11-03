@@ -25,6 +25,14 @@
 
 It will create and deploy an App Services Instance with the python code and the associated requirements. You can use the same command to update the app service in you make some modifications in your code
 
+## Testing
+
+You can test with POSTMAN or curl command. You need to use a "file" field to upload the document.  
+Replace *myfile.pdf* and *myapp* with the desired values.
+
+Eg for curl :  
+`curl -k -X POST -F file=@myfile.pdf https://myapp.azurewebsites.net/upload`
+
 ## Best practices
 
 - **It's better and safer to use Managed Identities instead of key or access keys**
